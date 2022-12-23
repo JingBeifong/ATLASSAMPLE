@@ -1,0 +1,133 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1d1d1f;
+}
+.home-navbar-interactive {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  padding-top: 4px;
+  padding-left: 42px;
+  padding-right: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.home-logo {
+  width: 205px;
+  height: 124px;
+}
+.home-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-login {
+  color: var(--dl-color-gray-black);
+  font-size: 30px;
+  transition: 0.3s;
+  font-family: Bebas Neue;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.home-login:hover {
+  background-color: #373737;
+}
+.home-login:active {
+  color: #f9f5f5;
+  background-color: #000000;
+}
+.home-register {
+  font-size: 30px;
+  transition: 0.3s;
+  font-family: Bebas Neue;
+  border-width: 0px;
+  text-decoration: none;
+}
+.home-register:hover {
+  background-color: #373737;
+}
+.home-register:active {
+  color: #fffefe;
+  background-color: #000000;
+}
+.home-image {
+  top: 257px;
+  right: 143px;
+  width: 625px;
+  height: 232px;
+  position: absolute;
+  align-self: flex-end;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.home-image:hover {
+  box-shadow: 5px 5px 10px 0px #5b5757;
+}
+.home-div {
+  top: 118px;
+  left: 24px;
+  width: 516px;
+  height: 596px;
+  position: absolute;
+}
+.home-text {
+  top: 471px;
+  color: #fffdfd;
+  right: 149px;
+  position: absolute;
+  font-size: 50px;
+  transition: 0.3s;
+  font-family: Bebas Neue;
+  font-weight: 400;
+}
+.home-text:hover {
+  color: #01ffff;
+}
+.home-navlink {
+  top: 540px;
+  color: rgb(0, 0, 0);
+  right: 329px;
+  width: 251px;
+  height: 53px;
+  position: absolute;
+  font-size: 40px;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Bebas Neue;
+  border-width: 0px;
+  text-decoration: none;
+  background-color: rgb(132, 130, 130);
+}
+.home-navlink:hover {
+  color: #cecaca;
+  background-color: #000000;
+}
+.home-navlink:active {
+  color: #870e0e;
+  background-color: #fffefe;
+}
+@media(max-width: 991px) {
+  .home-btn-group {
+    display: none;
+  }
+}
+@media(max-width: 767px) {
+  .home-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .home-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+}

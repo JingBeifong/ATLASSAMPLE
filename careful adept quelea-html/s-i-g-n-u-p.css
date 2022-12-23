@@ -1,0 +1,109 @@
+.s-i-g-n-u-p-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(135deg, rgb(189, 195, 199) 0.00%,rgb(23, 25, 28) 36.00%);
+}
+.s-i-g-n-u-p-container1 {
+  width: 100%;
+  height: 996px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.s-i-g-n-u-p-container2 {
+  top: 85px;
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  width: 707px;
+  height: 478px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #000000;
+  align-items: flex-end;
+  border-radius: var(--dl-radius-radius-radius8);
+  justify-content: flex-end;
+  background-color: #b1afaf;
+}
+.s-i-g-n-u-p-text {
+  top: 48px;
+  left: 264px;
+  width: 180px;
+  margin: auto;
+  position: absolute;
+  font-size: 60px;
+  font-style: normal;
+  font-family: Bebas Neue;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+.s-i-g-n-u-p-textinput {
+  top: 162px;
+  left: 0px;
+  right: 0px;
+  width: 577px;
+  height: 68px;
+  margin: auto;
+  position: absolute;
+  border-width: 1px;
+  background-color: #b1afaf;
+}
+.s-i-g-n-u-p-textinput1 {
+  top: 274px;
+  left: 0px;
+  right: 0px;
+  width: 577px;
+  height: 68px;
+  margin: auto;
+  position: absolute;
+  border-width: 1px;
+  background-color: #b1afaf;
+}
+.s-i-g-n-u-p-navlink {
+  left: 0px;
+  color: rgb(255, 253, 253);
+  right: 0px;
+  width: 201px;
+  bottom: 40px;
+  height: 52px;
+  margin: auto;
+  position: absolute;
+  font-size: 35px;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Bebas Neue;
+  border-width: 0px;
+  letter-spacing: 5px;
+  text-decoration: none;
+  background-color: rgb(92, 92, 92);
+}
+.s-i-g-n-u-p-navlink:hover {
+  background-color: #000000;
+}
+.s-i-g-n-u-p-navlink:active {
+  color: #00f9f9;
+  background-color: #000000;
+}
+.s-i-g-n-u-p-navlink1 {
+  display: contents;
+}
+.s-i-g-n-u-p-icon {
+  top: 31px;
+  fill: #000000;
+  left: 21px;
+  width: 92px;
+  height: 56px;
+  position: absolute;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.s-i-g-n-u-p-icon:active {
+  fill: #f7f3f3;
+}
